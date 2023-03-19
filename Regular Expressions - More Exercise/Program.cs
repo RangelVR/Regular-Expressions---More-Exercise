@@ -5,7 +5,6 @@ string[] ticketsList = Console.ReadLine()
 
 string pattern = @"(\@{6,}|\${6,}|\^{6,}|\#{6,})";
 
-
 foreach (string ticket in ticketsList)
 {
     if (ticket.Length == 20)
